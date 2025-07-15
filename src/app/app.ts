@@ -1,7 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Home } from './home/home';
-import { RouterModule } from '@angular/router'; // for <a [routerLink]="['/']">  
+import { RouterModule } from '@angular/router'; 
+// RouterModule is for <a [routerLink]="['/']">  
+// routerLink directive enables Angular's router to create dynamic links in the application
 
 @Component({
   selector: 'app-root',
